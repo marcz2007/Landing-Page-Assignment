@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+
+.Text {
+    color: #bd8729;
+    font-family: sans-serif;
+}
+
+.logo-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    margin: 0;
+    font-family: serif, sans-serif;
+    background-color: #F7F6F6;
+}
+
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.topnav {
+    overflow: hidden;
+
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+
+
+#leftIcon {
+    min-height: 20%;
+    width: 10%;
+    float: left;
+    min-width: 20%;
+    padding: 25px 0px 0px 25px;
+}
+
+#rightIcon {
+    width: 4%;
+    float: right;
+    min-width: 6%;
+    padding: 25px 25px 0px 0px;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+.content-part {
+    padding: 20px 0;
+
+
+}
+.leftSide {
+    position: relative;
+    float: left;
+    width: 55%;
+
+}
+
+.leftPicture1 {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    float: left;
+    width: 45%;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.leftPicture1 img {
+    width: 100%;
+}
+
+.leftPicture2 {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    float: right;
+    width: 45%;
+    max-width: 100%;
+    height: auto;
+}
+
+.leftPicture2 img {
+    width: 100%;
+}
+
+.list {
+    list-style-position: inside;
+    padding-left: 25px;
+}
+
+.rightSide {
+    position: relative;
+    float: right;
+    width: 45%;
+
+}
+
+
+
+.form {
+    border-radius: 5px;
+    background-color: #F7F6F6;
+    padding: 0 20px 20px 20px;
+
+}
+.insideForm {
+    background-color: white;
+
+    border: black 5px;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: white;
+    color: #111011;
+    padding: 12px 20px;
+    border: #bd8729;
+    align-items: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #bd8729;
+}
+
+
+.rightPicture1 {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    height: auto;
+    width: 80%;
+    margin-right: 0px;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.rightPicture2 {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    width: 80%;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.centerDiv {
+    position: relative;
+    text-align: center ;
+
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: #303233;
+    z-index: 10;
+    margin-top: 10px;
+    position: relative;
+    clear: both;
+}
