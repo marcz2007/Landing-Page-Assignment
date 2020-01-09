@@ -6,16 +6,7 @@
 
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="responsive.css" media="screen and (max-width:900px)">
-    <script>
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
-    </script>
+
 </head>
 
 <body>
@@ -34,78 +25,89 @@
 
 <div class="content-part">
     <div class="leftSide">
-        <div class="centerDiv"><h2 class="Text"> Experience the best golf and so much <br> more at Portugal's #1 Golf
+        <div class="centerDiv"><h2> Experience the best golf and so much <br> more at Portugal's #1 Golf
             Resort </h2></div>
         <br>
 
-        <img src="748A5226_RT.jpg" alt="Golf Course showing two ponds" style="width: 100%;">
+        <img src="748A5226_RT.jpg" alt="Golf Course showing two ponds" class="bigPicture">
         <div class="centerDiv">
             <br>
-            <p class="Text">Ranked at #4 in Golf World's Top 100 Continental Europe <br> 2019 list, Monte Rei is the
-                perfect end
-                of year
-                destination,<br> pairing excellent golf and attractive resort experiences.
+            <p class="Text">Ranked at #4 in Golf World's Top 100 Continental Europe </p>
+            <p class="Text"> 2019 list, Monte Rei is the perfect end of year destination, </p>
+            <p class="Text"> pairing excellent golf and attractive resort experiences.
             </p>
             <br>
         </div>
         <p class="Text">
         <ul class="list">
-            <li> Award-winning golf on Monte Rei's Signature Jack Nicklaus North Course</li>
-            <li> Refined dining options, from formal evening dining to relaxed poolside lunches</li>
-            <li> Activities, from yoga and cycling to guided local tours, ensure that no moment is wasted</li>
-            <li> Variety of package options available, including other Algarve golf courses</li>
-            <li> Only 45 minutes from Faro airport</li>
+            <li class="listItem"> Award-winning golf on Monte Rei's Signature Jack Nicklaus North Course</li>
+            <li class="listItem"> Refined dining options, from formal evening dining to relaxed poolside lunches</li>
+            <li class="listItem"> Activities, from yoga and cycling to guided local tours, ensure that no moment is
+                wasted
+            </li>
+            <li class="listItem"> Variety of package options available, including other Algarve golf courses</li>
+            <li class="listItem"> Only 45 minutes from Faro airport</li>
         </ul>
         </p>
         <br>
 
-        <div class="leftPicture1">
-            <img src="img.jpeg">
+        <div class="bottomContainer">
+            <img src="img.jpeg" class="bottomPicture">
+
+            <img src="img3.jpg" class="bottomPicture">
         </div>
-        <div class="leftPicture2">
-            <img src="img3.jpg">
-        </div>
+
 
     </div>
 
     <div class="rightSide Text">
 
         <div class="form">
-            <div class="insideForm">
-                <form action="/action_page.php">
-                    <div class="centerDiv"><h2> Find out more today </h2></div>
-                    <hr>
-                    <p> Simply enter your details or call Monte Rei’s team on +351 281 950 950. Terms and conditions
-                        apply.
-                    </p>
-                    <input type="text" id="name" name="firstname" placeholder="Name">
-                    <input id="email" name="email" placeholder="Email">
-                    <input type="text" id="phone" name="phone" placeholder="Phone">
-                    <input type="checkbox" name="tsandcs" value="Checked"> Check this box to indicate that you have read
-                    and
-                    agree to the terms of the Monte Rei Data Policy<br>
-                    <input type="submit" value="SEND">
 
-                </form>
-            </div>
+            <form action="/action_page.php" class="innerForm">
+                <div class="centerDiv"><h2> Find out more today </h2></div>
+                <hr>
+                <p class="blackText centerDiv"> Simply enter your details or call Monte Rei<span>&#39;</span>s team on
+                    +351 281 950 950. Terms and conditions
+                    apply.
+                </p>
+                <input type="text" name="firstname" placeholder="Name" class="formBox">
+                <input type="text" name="email" placeholder="Email" class="formBox">
+                <input type="text" name="phone" placeholder="Phone" class="formBox">
+                <label class="blackText"><input type="checkbox" name="tsandcs" value="Checked"> Check this box to
+                    indicate that you have read
+                    and
+                    agree to the terms of the <a href="https://www.monte-rei.com/"/> Monte Rei Data Policy </a> <br>
+                </label>
+                <button type="submit" class="sendButton">SEND</button>
+
+            </form>
+
         </div>
 
-        <div class="rightPicture1">
+        <div class="sidePicture">
             <img src="Swimming%20pool.jpg" width="95%">
         </div>
-        <div class="rightPicture2">
+        <div class="sidePicture">
             <img src="Monte_Rei_Exterior_01_Jack_Hardy_2018.jpg" width="95%">
         </div>
     </div>
 </div>
 
-<div class="footer">
-    <img src="logo.png" style="float: left; padding-top: 25px; padding-left: 25px; width: 10%;">
-    <img src="twitter-icon-white-transparent-6.png"
-         style="float: right; padding-top: 25px; padding-right: 25px; width: 3%;">
-    <img src="instagram.png" style="float: right; padding-top: 25px; padding-right: 25px; width: 3%;">
-    <img src="computer-icons-facebook-logo-clip-art-black-and-white-icon.png"
-         style="float: right; padding-top: 25px; padding-right: 25px; width: 3%;">
-</div>
+<div class="footer ">
+
+        <div class="logoBottomDiv">
+            <img src="logo.png" class="logoBottom">
+        </div>
+        <div class="socialMedia">
+            <img src="computer-icons-facebook-logo-clip-art-black-and-white-icon.png"
+                 class="socialMediaLogo">
+            <img src="instagram.png" class="socialMediaLogo">
+
+            <img src="twitter-icon-white-transparent-6.png"
+                 class="socialMediaLogo">
+        </div>
+    </div>
+
 </body>
 </html>
