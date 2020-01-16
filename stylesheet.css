@@ -73,17 +73,12 @@ h2{
 
 
 #leftIcon {
-    min-height: 20%;
-    width: 10%;
-    float: left;
-    min-width: 20%;
+
     padding: 25px 0px 0px 25px;
 }
 
 #rightIcon {
-    width: 4%;
-    float: right;
-    min-width: 6%;
+
     padding: 25px 25px 0px 0px;
 }
 
@@ -215,6 +210,7 @@ input::placeholder {
 
 .bigPicture {
     width: 100%;
+
 }
 
 
@@ -247,32 +243,33 @@ input::placeholder {
 }
 
 .footer {
-
     background-color: #303233;
-    height: 100px;
+
     display: flex;
 }
 
 .logoBottomDiv{
-    padding-top: 30px;
-    padding-left: 30px;
-
+    padding-top: 5%;
+    padding-left: 1%;
+    padding-bottom: 5%;
+    width: 29%;
 
 }
 .logoBottom{
-    flex-basis: 90%;
+
     width: 100%;
 
 }
 
-.socialMedia{
-    padding-top: 30px;
-    padding-right: 30px;
-    text-align: right;
+.socialMedia {
+    padding-top: 5%;
+    padding-right: 1%;
+    width: 69%;
+    text-align: -webkit-right;
 }
 
-.socialMediaLogo{
-    width: 4%;
-    padding-right: 10px;
+.socialMediaLogo {
+    min-width: 7%;
+    max-width: 7%;
 
 }
